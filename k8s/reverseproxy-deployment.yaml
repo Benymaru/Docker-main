@@ -12,7 +12,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: hammadi/udagram-reverseproxy
+        - image: phil092/udagram-reverseproxy
           name: reverseproxy
           imagePullPolicy: Always
           resources:

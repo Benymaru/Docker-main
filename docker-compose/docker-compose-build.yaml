@@ -3,16 +3,16 @@ services:
   reverseproxy:
     build:
       context: .
-    image: hammadi/udagram-reverseproxy:latest
+    image: phil092/udagram-reverseproxy:latest
   backend_user:
     build:
       context: ../../udagram-restapi-user
-    image: hammadi/udagram-restapi-user:latest
+    image: phil092/udagram-restapi-user:latest
   backend_feed:
     build:
       context: ../../udagram-restapi-feed
-    image: hammadi/udagram-restapi-feed:latest
+    image: phil092/udagram-restapi-feed:latest
   frontend:
     build:
       context: ../../udagram-frontend
-    image: hammadi/udagram-frontend:latest
+    image: phil092/udagram-frontend:latest
